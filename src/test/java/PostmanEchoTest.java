@@ -24,7 +24,7 @@ public class PostmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Размер возвращаемого значения  3"))
+                .body("data", equalTo("Размер возвращаемого значения равен 3"))
         ;
     }
 
